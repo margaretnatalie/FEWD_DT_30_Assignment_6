@@ -70,4 +70,4 @@ Read ahead [about responsive design for next week](http://www.smashingmagazine.c
 ### Evaluation / Submission
 
 
-Students can use the same GitHub repository as Assignment 5. When ready for evaluation they should push their code to either that repository or this repository. Instructional team should evaluate against the solution code and the student's use of technical elements. They will provide a numeric grade on a scale: does not meet expectations (0); meets expectations (1); exceeds expectations (2).  The maximum possible score on this assignment is 16/16. Bonus materials are completely optional.
+Students can use the same GitHub repository as Assignment 5. When ready for evaluation they should push their code to either their fork of that repository or their fork of this repository. Instructional team should evaluate against the solution code and the student's use of technical elements. They will provide a numeric grade on a scale: does not meet expectations (0); meets expectations (1); exceeds expectations (2).  The maximum possible score on this assignment is 16/16. Bonus materials are completely optional.
