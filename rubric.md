@@ -20,7 +20,3 @@ The team from CitiPix has reached out for iteration on their prototype.  Instead
 | Use ```if/else if/else ``` conditionals to control the flow of your application                                                                                                                        |                                |                        |                          |
 | **Display your pseudocode as Javascript comments**                                                                                                                                                         |                                |                        |                          |
 | TOTAL: ______/16                                                                                                                                                                                       |                                |                        |                          |
-
-**Solution Image**
-
-![](solution_code/images/citipix_solution_week6.png)
