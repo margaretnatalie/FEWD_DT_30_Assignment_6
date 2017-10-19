@@ -3,6 +3,8 @@ var cities = ["NYC", "SF", "LA", "ATX", "SYD"];
 $(document).ready(function() {
 
   for(var i = 0; i < cities.length; i++) {
+    $('#city-type').append('<option value="' + cities[i] + '">' + cities[i] + '</option>');
+    var html = '';
     
   }
   
