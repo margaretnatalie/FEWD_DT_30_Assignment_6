@@ -5,6 +5,7 @@ $(document).ready(function() {
   for(var i = 0; i < cities.length; i++) {
     
   }
+  
   $('#city-type').change(function(){
 
     var city = $('#city-type').val();
