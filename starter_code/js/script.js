@@ -1,33 +1,32 @@
-var cities = ["NYC", "SF", "LA", "ATX", "SYD"];
+var cities = ["New York City", "San Francisco", "Los Angeles", "Austin", "Sydney"];
 
 $(document).ready(function() {
 
   for(var i = 0; i < cities.length; i++) {
-    $('#city-type').append('<option value="' + cities[i] + '">' + cities[i] + '</option>');
-    var html = '';
-    
+    $('#city-type').append($("<option>", {value: cities[i], text: cities[i]}));
   }
-  
+
   $('#city-type').change(function(){
 
     var city = $('#city-type').val();
-    if(city == 'NYC') {
+    if(city == 'New York City') {
       $('body').attr('class','nyc');
     }
-    else if (city == 'SF') {
+    else if (city == 'San Francisco') {
       $('body').attr('class','sf');
     }
-    else if (city == 'LA') {
+    else if (city == 'Los Angeles') {
       $('body').attr('class','la');
     }
-    else if (city == 'ATX') {
+    else if (city == 'Austin') {
       $('body').attr('class','austin');
     }
-    else if (city == 'SYD') {
+    else if (city == 'Sydney') {
       $('body').attr('class','sydney');
     }
   });
 });
+
 
 //notes from the solution code. 
 // var cities = ["NYC", "SF", "LA", "ATX", "SYD"];
@@ -63,8 +62,7 @@ $(document).ready(function() {
 // // });
 //   }
 //   $('form').on('change', '#city-type',function(){
-
-//     // no need to use toLowerCase()/trim() here - we know what our possible values are ahead of time
+  
 //     var city = $('#city-type').val();
 //     if(city == 'NYC') {
 //       $('body').attr('class','nyc');
